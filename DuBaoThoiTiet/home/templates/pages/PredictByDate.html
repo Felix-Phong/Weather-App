@@ -1,0 +1,46 @@
+{% extends "pages/base.html" %}
+{%block title%}
+HOME
+{%endblock%}
+{%block content%}
+<div class = "container">
+    <div class="weather-card">
+        <div class="weather-header">
+            <div class="date">
+                <div>TH 7</div>
+                <div>23/11</div>
+            </div>
+            <div class="temperature">
+                <div class="current-temp">32°</div>
+                <div class="range-temp">/25°</div>
+            </div>
+            <div class="humidity">
+                <i class="icon">💧</i> 40%
+            </div>
+        </div>
+        <div class="weather-condition">
+            Mưa dông ở một số phần trong khu vực
+        </div>
+        <div class="weather-details">
+            <div class="detail-item">
+                <div>RealFeel<sup>®</sup></div>
+                <div>39°</div>
+            </div>
+            <div class="detail-item">
+                <div>RealFeel Shade<sup>™</sup></div>
+                <div>35°</div>
+            </div>
+            <div class="detail-item">
+                <div>Chỉ số UV tối đa</div>
+                <div>7 Có hại (Người nhạy cảm)</div>
+            </div>
+            <div class="detail-item">
+                <div>Gió</div>
+                <div>ĐĐB 6 km/h</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{%endblock%}
